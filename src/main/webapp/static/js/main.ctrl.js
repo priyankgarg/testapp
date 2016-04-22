@@ -1,7 +1,7 @@
 angular.module('app').controller("MainController", function(){
 	var vm = this;
 	vm.viewName = 'AGENCY_LIST';
-	vm.title = 'AngularJS Tutorial Example';
+	vm.title = 'Transport timing application';
 	vm.searchInput = '';
 	/*Populating agencies when the page loads*/
 	vm.agencies = ServiceManager.getAgencies();
