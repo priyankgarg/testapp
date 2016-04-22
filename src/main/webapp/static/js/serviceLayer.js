@@ -3,7 +3,7 @@ var ServiceManager = (function(){
     return {};
 })();
 
-ServiceManager.cloudUrl = "/testapp/";
+ServiceManager.cloudUrl = "/";
 ServiceManager.sendRequest = function(serviceUrl, asyncFlag, methodFlag, serializeFunc, callback){
     var webserviceUrl = this.cloudUrl + serviceUrl;		                
     try{
