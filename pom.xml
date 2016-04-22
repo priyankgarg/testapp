@@ -112,6 +112,9 @@
 					<scanIntervalSeconds>1000</scanIntervalSeconds>
 					<stopKey>foo</stopKey>
 					<stopPort>9999</stopPort>
+					<httpConnector>
+		          	     <port>80</port>
+		        	</httpConnector>
 					<webAppConfig implementation="org.eclipse.jetty.maven.plugin.JettyWebAppContext">
 						<contextPath>/testapp</contextPath>
 						<sessionHandler implementation="org.eclipse.jetty.server.session.SessionHandler">
