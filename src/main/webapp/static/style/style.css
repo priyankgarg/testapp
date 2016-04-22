@@ -1,0 +1,109 @@
+body {
+	max-width: 810px;
+	border-bottom: 1px solid #b3b3b3;
+	/*border-left: 1px solid #b3b3b3;
+	border-right: 1px solid #b3b3b3;*/
+	font-family: Arial;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-div {
+	/*background: url("../images/cover.gif") no-repeat;*/
+	height: 510px;
+	width: 100%;
+}
+
+ul.offer-list {
+	padding: 10px;	
+}
+
+.offer-list li {
+	border: 1px solid #003C66;
+	border-radius: 5px;
+	height: 150px;
+	list-style: none;
+	padding: 0px;
+}
+
+.offer-list li .offer-pic {
+	width: 275px;
+	height: 100px;
+	display: inline-block;
+}
+
+.offer-list li .offer-details {
+	display: inline-block;
+	max-width: 55%;
+	height: 100px;
+	vertical-align: top;
+	margin: 0px 10px;
+}
+
+.offer-list li .offer-title {
+	color: #003C66;
+	margin-top: 8px;
+}
+
+.offer-list li .offer-title h3 {
+	margin: 0px;
+}
+
+.offer-list li .offer-description {
+	font-size: 12px;
+	color: #3E3E3E;
+	margin-top: 10px;
+	height: 75px;
+	
+}
+
+.sb-coupon {
+	height: 60px;
+	width: 300px;
+	background-color: #003C66;
+	border-radius: 10px;
+	border: 1px dashed #E3E3E3;
+	/*padding-top: 20px;*/
+}
+
+.sb-coupon .inactive {
+	color: #A0A0A0;
+	font-size: 18px;
+	font-weight: bold;
+	position: relative;
+    top: 3px;
+}
+
+.sb-coupon .active {
+	color: #FFF;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+.likeButton {
+	height: 30px;
+	width: 60px;
+	font-size: 12px !important;	
+}
+
+.successMessage {
+	color: #3b5998;
+	margin-right: 10px;
+	font-size: 12px;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	font-weight: 600;
+}
+
+.overlayMessage {
+	color: white;
+	background-color: #3b5998;
+	border: 2px solid white;
+	border-radius: 10px;
+	min-height: 20px;
+	min-width: 250px;
+	text-align: center;
+	font-size: 12px;
+	padding: 0px 10px;
+}

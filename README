@@ -1,0 +1,12 @@
+# Transport Test App
+
+## Configuration
+	Configuration information is in /src/main/resources/config.properties file
+
+## Build
+    mvn clean package
+
+## Start
+  mvn clean jetty:run
+  
+  Check the url : host:8080/testapp/
